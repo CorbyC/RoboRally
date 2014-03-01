@@ -1,0 +1,32 @@
+Robo Rally concept design
+
+Game
+-
+
+Board
+- x,y dimensions
+- 2d array of tiles
+
+
+Player
+- Hand
+- Programmed phases
+- lives
+- option cards
+- robot identity
+- Robot
+
+Robot
+- Point position
+- int hits
+- direction facing
+
+Tile
+- TileEdgeElements for any of 4 sides
+	- rotation stored here? If so, how will a pusher know where to push?
+- type (checkpoint, pit, basic)
+- Image
+
+TileEdgeElement 
+- Type (ie: wall, laser, pusher)
+- Image
